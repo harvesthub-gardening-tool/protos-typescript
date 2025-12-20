@@ -1,0 +1,28 @@
+{
+  "name": "@harvesthub-gardening-tool/protos-typescript",
+  "version": "0.0.0-dev.20251220173156.340a216",
+  "description": "Generated TypeScript code from Protocol Buffers",
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./*": "./*.ts"
+  },
+  "scripts": {
+  "build": "tsc",
+  "prepare": "npm run build"
+  },
+  "keywords": [
+    "protobuf",
+    "grpc",
+    "connect",
+    "typescript"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@bufbuild/protobuf": "^2.2.2",
+    "@connectrpc/connect": "^2.0.0",
+    "typescript": ">=5.0.0"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "@harvesthub-gardening-tool/protos-typescript",
-  "version": "0.0.0-dev.20251221121436.c7cce29",
+  "version": "0.0.0-dev.20251221121509.c7cce29",
   "description": "Generated TypeScript code from Protocol Buffers",
   "type": "module",
   "main": "./index.ts",

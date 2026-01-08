@@ -17,7 +17,11 @@ export const GardenService = {
   typeName: "garden.v1.GardenService",
   methods: {
     /**
-     * * Insère une nouvelle mesure capteur 
+     * * 
+     * Insère une nouvelle mesure capteur
+     *
+     * **Authentication:** Requires service account token (Hub only)
+     * **Authorization:** Only service accounts without email can write
      *
      * @generated from rpc garden.v1.GardenService.InsertSensorData
      */
@@ -28,7 +32,10 @@ export const GardenService = {
       kind: MethodKind.Unary,
     },
     /**
-     * * Récupère un résumé agrégé sur une fenêtre de temps 
+     * * 
+     * Récupère un résumé agrégé sur une fenêtre de temps
+     *
+     * **Authentication:** Requires valid user or service account token
      *
      * @generated from rpc garden.v1.GardenService.GetSummary
      */

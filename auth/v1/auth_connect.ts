@@ -7,6 +7,8 @@ import { CreateHubTokenRequest, CreateHubTokenResponse, ListHubTokensRequest, Li
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
+ * ====== Service ======
+ *
  * @generated from service auth.v1.AuthService
  */
 export const AuthService = {

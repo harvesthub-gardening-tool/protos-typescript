@@ -16,6 +16,6 @@ import { /* your generated types */ } from '@harvesthub-gardening-tool/protos-ty
 
 ## Version
 
-Generated from commit: `d87bf2d`
+Generated from commit: `3a303c3`
 
-Version: `0.0.0-dev.20260108144827.d87bf2d`
+Version: `0.0.0-dev.20260221001407.3a303c3`

@@ -12,7 +12,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file garden/v2/garden.proto.
  */
 export const file_garden_v2_garden: GenFile = /*@__PURE__*/
-  fileDesc("ChZnYXJkZW4vdjIvZ2FyZGVuLnByb3RvEglnYXJkZW4udjIiewoXSW5zZXJ0U2Vuc29yRGF0YVJlcXVlc3QSDwoHbm9kZV9pZBgBIAEoCRITCgt0ZW1wZXJhdHVyZRgCIAEoARIQCghodW1pZGl0eRgDIAEoARIVCg1zb2lsX21vaXN0dXJlGAQgASgBEhEKCXRpbWVzdGFtcBgFIAEoAyI8ChhJbnNlcnRTZW5zb3JEYXRhUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCBIPCgdtZXNzYWdlGAIgASgJInMKEUdldFN1bW1hcnlSZXF1ZXN0EhQKB25vZGVfaWQYASABKAlIAIgBARISCgVob3VycxgCIAEoBUgBiAEBEhMKBmh1Yl9pZBgDIAEoCUgCiAEBQgoKCF9ub2RlX2lkQggKBl9ob3Vyc0IJCgdfaHViX2lkIkEKEkdldFN1bW1hcnlSZXNwb25zZRIrCglzdW1tYXJpZXMYASADKAsyGC5nYXJkZW4udjIuU2Vuc29yU3VtbWFyeSKrAQoNU2Vuc29yU3VtbWFyeRIPCgdub2RlX2lkGAEgASgJEhYKDmludGVydmFsX3N0YXJ0GAIgASgDEhcKD2F2Z190ZW1wZXJhdHVyZRgDIAEoARIUCgxhdmdfaHVtaWRpdHkYBCABKAESGQoRYXZnX3NvaWxfbW9pc3R1cmUYBSABKAESFwoPbWF4X3RlbXBlcmF0dXJlGAYgASgBEg4KBmh1Yl9pZBgHIAEoCTLGBgoNR2FyZGVuU2VydmljZRKMAwoQSW5zZXJ0U2Vuc29yRGF0YRIiLmdhcmRlbi52Mi5JbnNlcnRTZW5zb3JEYXRhUmVxdWVzdBojLmdhcmRlbi52Mi5JbnNlcnRTZW5zb3JEYXRhUmVzcG9uc2UirgKSQfYBCglHYXJkZW4gdjISI0luc2VydFNlbnNvckRhdGEgKEdhcmRlblNlcnZpY2UgdjIpGrUBSW5zZXJ0IGEgc2Vuc29yIG1lYXN1cmVtZW50LiBSZXF1aXJlcyBhIGh1YiBzZXJ2aWNlLWFjY291bnQgSldUIGNhcnJ5aW5nIGEgYGh1Yl9pZGAgY2xhaW0uIFRoZSBwcm9iZSBpcyBhdXRvLWJvdW5kIHRvIHRoZSBjYWxsaW5nIGh1YiBvbiBmaXJzdCBzaWdodDsgY3Jvc3MtaHViIHNwb29maW5nIGlzIHJlamVjdGVkLmIMCgoKBmJlYXJlchIAgtPkkwIuOgEqIikvZ2FyZGVuLnYyLkdhcmRlblNlcnZpY2UvSW5zZXJ0U2Vuc29yRGF0YRLgAgoKR2V0U3VtbWFyeRIcLmdhcmRlbi52Mi5HZXRTdW1tYXJ5UmVxdWVzdBodLmdhcmRlbi52Mi5HZXRTdW1tYXJ5UmVzcG9uc2UilAKSQeIBCglHYXJkZW4gdjISHUdldFN1bW1hcnkgKEdhcmRlblNlcnZpY2UgdjIpGqcBQWdncmVnYXRlIHNlbnNvciByZWFkaW5ncyBvdmVyIGEgc2xpZGluZyB3aW5kb3cuIFVzZXJzIG9ubHkgc2VlIGRhdGEgZnJvbSBwcm9iZXMgYXR0YWNoZWQgdG8gaHVicyB0aGV5IG93bi4gT3B0aW9uYWwgYGh1Yl9pZGAgZmlsdGVyIG5hcnJvd3MgdGhlIHNjb3BlIHRvIGEgc2luZ2xlIGh1Yi5iDAoKCgZiZWFyZXISAILT5JMCKDoBKiIjL2dhcmRlbi52Mi5HYXJkZW5TZXJ2aWNlL0dldFN1bW1hcnkaQ5JBQBI+U2VydmljZSBmb3IgY29sbGVjdGluZyBhbmQgcmV0cmlldmluZyBnYXJkZW4gc2Vuc29yIGRhdGEgKHYyKS5C9gRaQWdpdGh1Yi5jb20vaGFydmVzdGh1Yi1nYXJkZW5pbmctdG9vbC9wcm90b3MtZ28vZ2FyZGVuL3YyO2dhcmRlbnYykkGvBBKKAwoNR2FyZGVuIEFQSSB2MhLcAkFQSSB0byBjb2xsZWN0IGFuZCBjb25zdWx0IGdhcmRlbiBzZW5zb3IgZGF0YS4KCioqdjIgY2hhbmdlczoqKgotIEFkZHMgb3B0aW9uYWwgYGh1Yl9pZGAgZmlsdGVyIHRvIEdldFN1bW1hcnkgKGxldHMgY2xpZW50cyBzY29wZSBxdWVyaWVzIHRvIGEgc2luZ2xlIGh1YikuCi0gRWFjaCBgU2Vuc29yU3VtbWFyeWAgbm93IGNhcnJpZXMgdGhlIGBodWJfaWRgIG9mIHRoZSBodWIgdGhhdCBvd25zIHRoZSBwcm9iZS4KCioqQXV0aGVudGljYXRpb246KiogQWxsIGVuZHBvaW50cyByZXF1aXJlIEJlYXJlciB0b2tlbiBhdXRoZW50aWNhdGlvbiAodXNlciBKV1QgZm9yIHJlYWRzLCBodWIgSldUIGZvciB3cml0ZXMpLiIVChNIYXJ2ZXN0IEh1YiBQcm9qZWN0MgMyLjAqAgECMhBhcHBsaWNhdGlvbi9qc29uMhFhcHBsaWNhdGlvbi9wcm90bzoQYXBwbGljYXRpb24vanNvbjoRYXBwbGljYXRpb24vcHJvdG9aRApCCgZiZWFyZXISOAgCEiNKV1QgdG9rZW4uIEZvcm1hdDogJ0JlYXJlciA8dG9rZW4+JxoNQXV0aG9yaXphdGlvbiACYgwKCgoGYmVhcmVyEgBiBnByb3RvMw", [file_google_api_annotations, file_protoc_gen_openapiv2_options_annotations]);
+  fileDesc("ChZnYXJkZW4vdjIvZ2FyZGVuLnByb3RvEglnYXJkZW4udjIiswEKF0luc2VydFNlbnNvckRhdGFSZXF1ZXN0Eg8KB25vZGVfaWQYASABKAkSFwoPYWlyX3RlbXBlcmF0dXJlGAIgASgBEhQKDGFpcl9odW1pZGl0eRgDIAEoARIVCg1zb2lsX2h1bWlkaXR5GAQgASgBEhEKCXRpbWVzdGFtcBgFIAEoAxIUCgxhaXJfcHJlc3N1cmUYBiABKAESGAoQc29pbF90ZW1wZXJhdHVyZRgHIAEoASI8ChhJbnNlcnRTZW5zb3JEYXRhUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCBIPCgdtZXNzYWdlGAIgASgJInMKEUdldFN1bW1hcnlSZXF1ZXN0EhQKB25vZGVfaWQYASABKAlIAIgBARISCgVob3VycxgCIAEoBUgBiAEBEhMKBmh1Yl9pZBgDIAEoCUgCiAEBQgoKCF9ub2RlX2lkQggKBl9ob3Vyc0IJCgdfaHViX2lkIkEKEkdldFN1bW1hcnlSZXNwb25zZRIrCglzdW1tYXJpZXMYASADKAsyGC5nYXJkZW4udjIuU2Vuc29yU3VtbWFyeSLvAQoNU2Vuc29yU3VtbWFyeRIPCgdub2RlX2lkGAEgASgJEhYKDmludGVydmFsX3N0YXJ0GAIgASgDEhsKE2F2Z19haXJfdGVtcGVyYXR1cmUYAyABKAESGAoQYXZnX2Fpcl9odW1pZGl0eRgEIAEoARIZChFhdmdfc29pbF9odW1pZGl0eRgFIAEoARIbChNtYXhfYWlyX3RlbXBlcmF0dXJlGAYgASgBEg4KBmh1Yl9pZBgHIAEoCRIYChBhdmdfYWlyX3ByZXNzdXJlGAggASgBEhwKFGF2Z19zb2lsX3RlbXBlcmF0dXJlGAkgASgBMsYGCg1HYXJkZW5TZXJ2aWNlEowDChBJbnNlcnRTZW5zb3JEYXRhEiIuZ2FyZGVuLnYyLkluc2VydFNlbnNvckRhdGFSZXF1ZXN0GiMuZ2FyZGVuLnYyLkluc2VydFNlbnNvckRhdGFSZXNwb25zZSKuApJB9gEKCUdhcmRlbiB2MhIjSW5zZXJ0U2Vuc29yRGF0YSAoR2FyZGVuU2VydmljZSB2MikatQFJbnNlcnQgYSBzZW5zb3IgbWVhc3VyZW1lbnQuIFJlcXVpcmVzIGEgaHViIHNlcnZpY2UtYWNjb3VudCBKV1QgY2FycnlpbmcgYSBgaHViX2lkYCBjbGFpbS4gVGhlIHByb2JlIGlzIGF1dG8tYm91bmQgdG8gdGhlIGNhbGxpbmcgaHViIG9uIGZpcnN0IHNpZ2h0OyBjcm9zcy1odWIgc3Bvb2ZpbmcgaXMgcmVqZWN0ZWQuYgwKCgoGYmVhcmVyEgCC0+STAi46ASoiKS9nYXJkZW4udjIuR2FyZGVuU2VydmljZS9JbnNlcnRTZW5zb3JEYXRhEuACCgpHZXRTdW1tYXJ5EhwuZ2FyZGVuLnYyLkdldFN1bW1hcnlSZXF1ZXN0Gh0uZ2FyZGVuLnYyLkdldFN1bW1hcnlSZXNwb25zZSKUApJB4gEKCUdhcmRlbiB2MhIdR2V0U3VtbWFyeSAoR2FyZGVuU2VydmljZSB2MikapwFBZ2dyZWdhdGUgc2Vuc29yIHJlYWRpbmdzIG92ZXIgYSBzbGlkaW5nIHdpbmRvdy4gVXNlcnMgb25seSBzZWUgZGF0YSBmcm9tIHByb2JlcyBhdHRhY2hlZCB0byBodWJzIHRoZXkgb3duLiBPcHRpb25hbCBgaHViX2lkYCBmaWx0ZXIgbmFycm93cyB0aGUgc2NvcGUgdG8gYSBzaW5nbGUgaHViLmIMCgoKBmJlYXJlchIAgtPkkwIoOgEqIiMvZ2FyZGVuLnYyLkdhcmRlblNlcnZpY2UvR2V0U3VtbWFyeRpDkkFAEj5TZXJ2aWNlIGZvciBjb2xsZWN0aW5nIGFuZCByZXRyaWV2aW5nIGdhcmRlbiBzZW5zb3IgZGF0YSAodjIpLkK+BVpBZ2l0aHViLmNvbS9oYXJ2ZXN0aHViLWdhcmRlbmluZy10b29sL3Byb3Rvcy1nby9nYXJkZW4vdjI7Z2FyZGVudjKSQfcEEtIDCg1HYXJkZW4gQVBJIHYyEqQDQVBJIHRvIGNvbGxlY3QgYW5kIGNvbnN1bHQgZ2FyZGVuIHNlbnNvciBkYXRhLgoKKip2MiBjaGFuZ2VzOioqCi0gQWRkcyBvcHRpb25hbCBgaHViX2lkYCBmaWx0ZXIgdG8gR2V0U3VtbWFyeSAobGV0cyBjbGllbnRzIHNjb3BlIHF1ZXJpZXMgdG8gYSBzaW5nbGUgaHViKS4KLSBFYWNoIGBTZW5zb3JTdW1tYXJ5YCBub3cgY2FycmllcyB0aGUgYGh1Yl9pZGAgb2YgdGhlIGh1YiB0aGF0IG93bnMgdGhlIHByb2JlLgotIFNlbnNvciByZWFkaW5ncyB1c2UgZXhwbGljaXQgYWlyL3NvaWwgbWV0cmljIG5hbWVzIHBsdXMgYWlyIHByZXNzdXJlLgoKKipBdXRoZW50aWNhdGlvbjoqKiBBbGwgZW5kcG9pbnRzIHJlcXVpcmUgQmVhcmVyIHRva2VuIGF1dGhlbnRpY2F0aW9uICh1c2VyIEpXVCBmb3IgcmVhZHMsIGh1YiBKV1QgZm9yIHdyaXRlcykuIhUKE0hhcnZlc3QgSHViIFByb2plY3QyAzIuMCoCAQIyEGFwcGxpY2F0aW9uL2pzb24yEWFwcGxpY2F0aW9uL3Byb3RvOhBhcHBsaWNhdGlvbi9qc29uOhFhcHBsaWNhdGlvbi9wcm90b1pECkIKBmJlYXJlchI4CAISI0pXVCB0b2tlbi4gRm9ybWF0OiAnQmVhcmVyIDx0b2tlbj4nGg1BdXRob3JpemF0aW9uIAJiDAoKCgZiZWFyZXISAGIGcHJvdG8z", [file_google_api_annotations, file_protoc_gen_openapiv2_options_annotations]);
 
 /**
  * ====== Messages ======
@@ -30,23 +30,23 @@ export type InsertSensorDataRequest = Message<"garden.v2.InsertSensorDataRequest
   /**
    * Celsius
    *
-   * @generated from field: double temperature = 2;
+   * @generated from field: double air_temperature = 2;
    */
-  temperature: number;
+  airTemperature: number;
 
   /**
    * Percent (0-100)
    *
-   * @generated from field: double humidity = 3;
+   * @generated from field: double air_humidity = 3;
    */
-  humidity: number;
+  airHumidity: number;
 
   /**
    * Percent (0-100)
    *
-   * @generated from field: double soil_moisture = 4;
+   * @generated from field: double soil_humidity = 4;
    */
-  soilMoisture: number;
+  soilHumidity: number;
 
   /**
    * Unix milliseconds
@@ -54,6 +54,20 @@ export type InsertSensorDataRequest = Message<"garden.v2.InsertSensorDataRequest
    * @generated from field: int64 timestamp = 5;
    */
   timestamp: bigint;
+
+  /**
+   * Pascals
+   *
+   * @generated from field: double air_pressure = 6;
+   */
+  airPressure: number;
+
+  /**
+   * Celsius
+   *
+   * @generated from field: double soil_temperature = 7;
+   */
+  soilTemperature: number;
 };
 
 /**
@@ -152,26 +166,32 @@ export type SensorSummary = Message<"garden.v2.SensorSummary"> & {
   intervalStart: bigint;
 
   /**
-   * @generated from field: double avg_temperature = 3;
+   * Celsius
+   *
+   * @generated from field: double avg_air_temperature = 3;
    */
-  avgTemperature: number;
+  avgAirTemperature: number;
 
   /**
-   * @generated from field: double avg_humidity = 4;
+   * Percent (0-100)
+   *
+   * @generated from field: double avg_air_humidity = 4;
    */
-  avgHumidity: number;
+  avgAirHumidity: number;
 
   /**
-   * @generated from field: double avg_soil_moisture = 5;
+   * Percent (0-100)
+   *
+   * @generated from field: double avg_soil_humidity = 5;
    */
-  avgSoilMoisture: number;
+  avgSoilHumidity: number;
 
   /**
    * Celsius
    *
-   * @generated from field: double max_temperature = 6;
+   * @generated from field: double max_air_temperature = 6;
    */
-  maxTemperature: number;
+  maxAirTemperature: number;
 
   /**
    * ID of the hub that owns the probe (matches `hubs.id`).
@@ -179,6 +199,20 @@ export type SensorSummary = Message<"garden.v2.SensorSummary"> & {
    * @generated from field: string hub_id = 7;
    */
   hubId: string;
+
+  /**
+   * Pascals
+   *
+   * @generated from field: double avg_air_pressure = 8;
+   */
+  avgAirPressure: number;
+
+  /**
+   * Celsius
+   *
+   * @generated from field: double avg_soil_temperature = 9;
+   */
+  avgSoilTemperature: number;
 };
 
 /**

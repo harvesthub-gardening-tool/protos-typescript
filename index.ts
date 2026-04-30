@@ -2,8 +2,6 @@
 // Namespaced exports to avoid name collisions between *_pb and *_connect files.
 export * as auth_v2_auth_connect from './auth/v2/auth_connect.js';
 export * as auth_v2_auth_pb from './auth/v2/auth_pb.js';
-export * as garden_v1_garden_connect from './garden/v1/garden_connect.js';
-export * as garden_v1_garden_pb from './garden/v1/garden_pb.js';
 export * as garden_v2_garden_connect from './garden/v2/garden_connect.js';
 export * as garden_v2_garden_pb from './garden/v2/garden_pb.js';
 export * as google_api_annotations_pb from './google/api/annotations_pb.js';

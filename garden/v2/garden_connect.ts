@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { GetSummaryRequest, GetSummaryResponse, InsertSensorDataRequest, InsertSensorDataResponse } from "./garden_pb.js";
+import { GetSummaryRequest, GetSummaryResponse, InsertSensorDataRequest, InsertSensorDataResponse, ListProbesForHubNameRequest, ListProbesForHubNameResponse } from "./garden_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -34,6 +34,17 @@ export const GardenService = {
       name: "GetSummary",
       I: GetSummaryRequest,
       O: GetSummaryResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * List all probes registered under a hub owned by the authenticated user. User-only.
+     *
+     * @generated from rpc garden.v2.GardenService.ListProbesForHubName
+     */
+    listProbesForHubName: {
+      name: "ListProbesForHubName",
+      I: ListProbesForHubNameRequest,
+      O: ListProbesForHubNameResponse,
       kind: MethodKind.Unary,
     },
   }

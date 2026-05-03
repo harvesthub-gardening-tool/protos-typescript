@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { GetSummaryRequest, GetSummaryResponse, InsertSensorDataRequest, InsertSensorDataResponse, ListProbesForHubNameRequest, ListProbesForHubNameResponse } from "./garden_pb.js";
+import { GetLastRequest, GetLastResponse, GetSummaryRequest, GetSummaryResponse, InsertSensorDataRequest, InsertSensorDataResponse, ListProbesForHubNameRequest, ListProbesForHubNameResponse } from "./garden_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -45,6 +45,17 @@ export const GardenService = {
       name: "ListProbesForHubName",
       I: ListProbesForHubNameRequest,
       O: ListProbesForHubNameResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * Return the most recent sensor reading for a probe owned by the caller. User-only.
+     *
+     * @generated from rpc garden.v2.GardenService.GetLast
+     */
+    getLast: {
+      name: "GetLast",
+      I: GetLastRequest,
+      O: GetLastResponse,
       kind: MethodKind.Unary,
     },
   }

@@ -3,7 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { AssociateHubRequest, AssociateHubResponse, ClaimHubTokenRequest, ClaimHubTokenResponse, ListHubsRequest, ListHubsResponse, LoginRequest, LoginResponse, RegisterRequest, RegisterResponse, RevokeHubRequest, RevokeHubResponse } from "./auth_pb.js";
+import { AssociateHubRequest, AssociateHubResponse, ChangeEmailRequest, ChangeEmailResponse, ChangePasswordRequest, ChangePasswordResponse, ClaimHubTokenRequest, ClaimHubTokenResponse, ListHubsRequest, ListHubsResponse, LoginRequest, LoginResponse, RegisterRequest, RegisterResponse, RevokeHubRequest, RevokeHubResponse } from "./auth_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -72,6 +72,24 @@ export const AuthService = {
       name: "RevokeHub",
       I: RevokeHubRequest,
       O: RevokeHubResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc auth.v2.AuthService.ChangeEmail
+     */
+    changeEmail: {
+      name: "ChangeEmail",
+      I: ChangeEmailRequest,
+      O: ChangeEmailResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * @generated from rpc auth.v2.AuthService.ChangePassword
+     */
+    changePassword: {
+      name: "ChangePassword",
+      I: ChangePasswordRequest,
+      O: ChangePasswordResponse,
       kind: MethodKind.Unary,
     },
   }
